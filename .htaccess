@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+RewriteCond %{HTTP_HOST} ^erp\.ssmskgp\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.erp\.ssmskgp\.org$
+RewriteRule erp.ssmskgp.org "http\:\/\/ssmskgp\.org\/erp" [R=301,L]

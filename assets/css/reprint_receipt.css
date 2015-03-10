@@ -1,0 +1,161 @@
+.main {
+	text-align: center;
+}
+.main #form1 table {
+	text-align: left;
+}
+#apDiv1 {
+	position:absolute;
+	width:949px;
+	height:554px;
+	z-index:1;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	border: 2px solid black;
+	border:2px solid;
+	border-radius:25px;
+	font-size: x-large;
+}
+.main #form1 #apDiv1 p {
+	font-size: xx-large;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+.KGP {
+	font-size: x-large;
+}
+.main #form1 #apDiv1.name {
+	font-size: small;
+}
+.main #form1 #apDiv1 table {
+	text-align: left;
+}
+#apDiv2 {
+	position:absolute;
+	width:715px;
+	height:116px;
+	z-index:2;
+	left: 296px;
+	top: 245px;
+}
+
+@media print
+{
+
+	.KGP {
+		font-size: x-large;
+	}
+	#print_btn{
+		display: none;
+	}
+	#apDiv2 {
+		display:none;
+	}
+	#main-content {
+		display:none; 
+	}
+	#sidebar{
+		display:none;
+	}
+	.header	{
+		display:none;
+	}
+	#footer{
+		display:none;
+	}
+	#print_area{
+		display: none  !importen;
+	}
+
+	#apDiv1 {
+		display:block;
+		top: 0;
+		left: 0;
+		background-image:url(../image/ssms_water_mark.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		display:inline;
+	}
+	body
+	{
+		background-color:#FFF;
+	}
+	#apDiv7 {
+	position:absolute;
+	width:442px;
+	height:55px;
+	z-index:3;
+	left: 268px;
+	top: 48px;
+	font-size: x-large;
+	}
+}
+#apDiv3 {
+	position:absolute;
+	width:199px;
+	height:30px;
+	z-index:3;
+	left: 716px;
+	top: 21px;
+	text-align: left;
+	font-size: medium;
+}
+#apDiv4 {
+	position:absolute;
+	width:200px;
+	height:32px;
+	z-index:3;
+	left: -641px;
+	top: 0px;
+}
+.main #form1 #apDiv1 table {
+	text-align: left;
+	font-size: x-large;
+}
+#apDiv5 {
+	position:absolute;
+	width:287px;
+	height:53px;
+	z-index:4;
+	left: 626px;
+	top: 495px;
+	font-style: italic;
+	font-size: large;
+}
+ 
+.preview
+{
+	border-collapse:collapse;
+	border:#fff solid;
+	text-align: left;
+}
+	
+#apDiv6 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	left: 258px;
+	top: -15px;
+}
+ 
+#apDiv9 {
+	position:absolute;
+	width:887px;
+	height:65px;
+	z-index:5;
+	top: 522px;
+	left: 6px;
+	font-size: large;
+}
+.copy {
+	font-weight: bold;
+}
+.copy1 {
+	font-style: italic;
+}
+.KGP {
+	font-size: x-large;
+}
+-->
